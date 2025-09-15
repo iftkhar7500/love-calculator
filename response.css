@@ -6,14 +6,15 @@
         background-image: url("cp.jpg");
         background-repeat: no-repeat;
         background-size: cover;
-    
+          width: 450px;
+          height: 700px ;
         background-position: right;
         margin-left: -120px;
         /* Reverts to original background position */
     }
 
     .main {
-        margin-left: 80px;
+        margin-left: 60px;
         margin-top: 150px;
     }
 
@@ -26,14 +27,15 @@
 
     .con {
         width: 60%;
-        left: 227px;
+        left: 200px;
         margin-top: 10px;
-        height: 700px;
+        height: 350px;
     }
 
     .con input {
         width: 210px;
-        margin-left: 4px;
+        margin-top: 20px;
+        margin-left: 15px;
     }
     .con input:focus {
     border: 2px solid green;
