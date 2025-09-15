@@ -1,0 +1,90 @@
+
+
+
+@media only screen and (max-width: 405px) {
+    body {
+        background-image: url("cp.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    
+        background-position: right;
+        margin-left: -120px;
+        /* Reverts to original background position */
+    }
+
+    .main {
+        margin-left: 80px;
+        margin-top: 150px;
+    }
+
+
+    .main h1 {
+        font-size: 18px;
+        margin-left: 130px;
+        margin-top: -130px;
+    }
+
+    .con {
+        width: 60%;
+        left: 227px;
+        margin-top: 10px;
+        height: 700px;
+    }
+
+    .con input {
+        width: 210px;
+        margin-left: 4px;
+    }
+    .con input:focus {
+    border: 2px solid green;
+    background-color: #e0ffe0; 
+    color: black; 
+    outline: none;
+}
+
+    
+    .re {
+        width: 218px;
+        margin-left: 5px;
+    }
+
+    .hart {
+        flex-direction: row;
+        /* Changes back to a horizontal layout */
+        justify-content: space-between;
+    }
+
+    .imgcenter {
+        position: relative;
+        left: 10px;
+        top: 105px;
+        /* margin-left: -100px; */
+        width: 230px;
+        height: 150px;
+    }
+
+    #yournameoutput {
+        position: relative;
+        z-index: 1;
+        top: 260px;
+        left: -90px;
+        margin-left: 140px;
+        /* width: 10px; */
+        font-size: 30px;
+        height: 40px;
+    }
+
+    #loversoutput {
+        position: absolute;
+        left: 30px;
+        top: 30px;
+        font-size: 30px;
+    }
+
+    #out1 {
+        position: absolute;
+        left: 30px;
+        top: 100px;
+        font-size: 30px;
+    }
+}

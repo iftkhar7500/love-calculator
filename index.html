@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+
+    <link rel="shortcut icon" href="rose.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="love.css">
+    <link rel="stylesheet" href="response.css" />
+    <title>love claculator</title>
+</head>
+
+<body>
+
+    <div class="main">
+        <h1>LOVE CALCULATOR</h1>
+    </div>
+    <div class="con">
+        <div>
+            <!-- <img class="heart2" src="heart5.jpg" alt=""> -->
+            <p class="text1">Enter your name</p>
+            <input id="name" type="text" placeholder="Enter your name">
+            <span id="error1" style="color: red"></span>
+        </div>
+        <div>
+            <p class="text1">Enter partner's name</p>
+            <input id="loversname" type="text" placeholder="Enter partner's name"></input>
+            <span id="error2" style="color: red;"></span>
+        </div>
+        <div id="yournameoutput"> </div>
+        <button class="btn" id="calbtn" onclick="claculator()">Calculate</button>
+        <div><button class="re" id="refersh1" onclick="refersh()">Refersh</button></div>
+        <div class="imgcenter">
+            <div id="yournameoutput"></div>
+            <div id="loversoutput"></div>
+            <div id="out1"></div>
+        </div>
+    </div>
+    </div>
+    <script src="love.js"></script>
+</body>
+
+</html>
